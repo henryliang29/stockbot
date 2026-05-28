@@ -1,0 +1,4 @@
+massive==2.8.0
+pytest==9.0.3
+python-dotenv==1.2.2
+Requests==2.34.2
