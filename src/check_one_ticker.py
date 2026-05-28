@@ -2,7 +2,7 @@ import requests
 import datetime
 import os
 from dotenv import load_dotenv
-from src.MA_method import moving_average
+from MA_method import moving_average
 
 
 def check_one_ticker():

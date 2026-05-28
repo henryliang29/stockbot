@@ -2,8 +2,8 @@ import requests
 import datetime
 import os
 from dotenv import load_dotenv
-from src.MA_method import moving_average
-from src.ticker_symbols import tickers
+from MA_method import moving_average
+from ticker_symbols import tickers
 
 def check_all_tickers():
     load_dotenv("config.env")
