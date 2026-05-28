@@ -6,9 +6,9 @@ import pytest
 import json
 import requests
 from datetime import date, datetime, timedelta
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+#from selenium import webdriver
+#from selenium.webdriver.chrome.service import Service
+#from selenium.webdriver.chrome.options import Options
 from MA_method import moving_average
 from massive import RESTClient
 from check_one_ticker import check_one_ticker
